@@ -1,0 +1,29 @@
+{
+  "name" : "phossa/phossa-validate",
+  "description" : "A validation library for PHP",
+  "require" : {
+    "php" : ">=5.4.0",
+    "phossa/phossa-shared" : "~1.0.8"
+  },
+  "license" : "MIT",
+  "keywords" : [ "phossa", "validate", "validation", "php" ],
+  "autoload-dev" : {
+    "psr-0" : {
+      "Phossa\\Validate\\" : "tests/src/"
+    }
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Phossa\\Validate\\" : "src/"
+    }
+  },
+  "archive" : {
+    "exclude" : [ "!vendor", "tests", "*phpunit.xml", "composer.lock" ]
+  },
+  "type" : "library",
+  "homepage" : "https://github.com/phossa/phossa-validate",
+  "authors" : [ {
+    "name" : "Hong Zhang",
+    "homepage" : "https://github.com/phossa"
+  } ]
+}
